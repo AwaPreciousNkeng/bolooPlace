@@ -25,8 +25,6 @@ const userSchema = new mongoose.Schema({
     default: ""
   },
   skills: [{ type: String }], // Only for freelancers
-  company: { type: String }, // Only for employers
-  phone: { type: String },
   location: { type: String },
   createdAt: { type: Date, default: Date.now },
 });
